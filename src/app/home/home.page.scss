@@ -1,0 +1,13 @@
+.img-banner-skeleton {
+  height: 137px;
+  width: 366px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.validation-message {
+  color: var(--ion-color-danger);
+}

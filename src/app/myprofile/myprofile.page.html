@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="end">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Mi Perfil</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding ion-text-center">
+  <ion-avatar (click)="takePhoto()">
+    <img [src]="urlAvatarDefaultImage" *ngIf="!photo" />
+    <img [src]="photo" *ngIf="photo" />
+  </ion-avatar>
+  <ng-container *ngIf="user">
+    <h1>{{user.name}}</h1>
+    <h2>{{user.email}}</h2>
+  </ng-container>
+</ion-content>

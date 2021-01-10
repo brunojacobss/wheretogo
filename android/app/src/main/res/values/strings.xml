@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Where to Go?</string>
+    <string name="title_activity_main">Where to Go?</string>
+    <string name="package_name">com.ionicbc.wheretogo</string>
+    <string name="custom_url_scheme">com.ionicbc.wheretogo</string>
+</resources>
